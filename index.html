@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/imges/note.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <section class="inputs-area">
+      <label for="title">note title:</label>
+      <input type="text" class="note-input" id="title" />
+      <label for="description">note description:</label>
+      <input type="text" class="note-description-input" id="description" />
+      <button id="add-btn">+</button>
+      <button id="show-deleted-btn">show deleted notes</button>
+    </section>
+    <section class="notes-body">
+      <div class="incompleted">
+        <h1>added notes</h1>
+      </div>
+      <div class="completed"></div> <!--don't add any thing in this tag-->
+    </section>
+    <script src="./js/noteClass.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
